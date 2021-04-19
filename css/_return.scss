@@ -1,0 +1,39 @@
+//**Return and Refund
+
+// **Still not written yet
+
+#ReturnNav {
+  background: #000;
+  color: white;
+}
+
+#ReturnNav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#ReturnNav li {
+  display: inline;
+  padding: 10px 30px;
+}
+
+#ReturnNav a {
+  color: white;
+  text-decoration: none;
+  font-size: $font-large;
+}
+
+#ReturnNav li:hover {
+  background: #b35e07;
+}
+
+#howtoreturn {
+  color: white;
+  font-size: $font-medium;
+}
+
+#ReturnsPolicy {
+  color: white;
+  font-size: $font-medium;
+}

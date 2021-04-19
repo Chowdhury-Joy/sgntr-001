@@ -1,0 +1,69 @@
+.Login {
+  .logintag {
+    font-size: $font-medium;
+    line-height: 5px;
+    font-size: 25px;
+
+    h2 {
+      display: flex;
+      justify-content: center;
+    }
+
+    h5 {
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .Login-form {
+    font-size: $font-medium;
+
+    padding-top: 10px;
+    padding-bottom: 20px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    color: #0c0c0c;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 350px;
+  }
+
+.not-form {
+  display: flex;
+  flex-direction: column;
+
+  .signinbtn {
+    background-color: #ae4608;
+    padding: 10px 100px;
+ 
+    margin: auto;      //To make the login button at middle
+  }
+  .no-account {
+    margin: auto;      //To make the sentence at middle
+    span {
+      color: #800000;
+      font-weight: map-get($font-weight, medium);
+      font-size: $font-medium;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+
+}
+
+}
+
+
+@media all and (max-width: 400px) {
+  .Login {
+    .logintag {
+      h5 {
+        font-size: 11px;
+      }
+    
+    }
+  }
+}

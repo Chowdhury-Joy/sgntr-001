@@ -1,0 +1,40 @@
+@media all and (max-width:790px) {
+  //!!Login class is for whole page
+
+  .logintag {
+    font-size  : $font-medium;
+    line-height: 5px;
+    font-size  : 25px;
+
+    h5 {
+      font-size: 14px;
+      margin   : 50px 23%;
+      display  : inline;
+    }
+
+    //!! LoginTag class is for welcome line
+
+  }
+
+  .Login-form {
+
+    font-size: $font-medium;
+    margin   : 20px 23%;
+
+    .no-account {
+
+      padding-top : -5px;
+      padding-left: 9%;
+
+      //!!Login-form class is for the form and "no account" class
+
+      span {
+        font-weight: map-get($font-weight, medium);
+        font-size  : $font-medium;
+      }
+    }
+
+    //!!Span tag is for coloring Sign UP
+  }
+
+}

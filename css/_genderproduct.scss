@@ -1,0 +1,73 @@
+// .gender-product-title {
+//   color         : cornflowerblue;
+//   font-family   : Akzidenz-Grotesk BQ;
+//   font-weight   : map-get($font-weight, bold);
+//   font-size     : $font-large;
+//   letter-spacing: 0.05em;
+//   max-width     : 500px;
+//   margin        : 0 auto;
+// }
+
+.gender-product-cat {
+  ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    max-width: 300px;
+    max-height: 250px;
+    display: block;
+    margin-left: 25px;
+    box-sizing: border-box;
+
+    .designs {
+      position: absolute;
+      margin: 70px;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      color: rgb(180, 10, 95);
+      font-size: 1em;
+      padding: 8px 10px;
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+      background-color: rgba(172, 143, 143, 0.884);
+    }
+  }
+
+}
+
+
+
+.cat-btn {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.cat-btn:hover {
+  background-color: coral;
+}
+
+// @media all and (max-width: 820px) {
+
+//   .designs {
+//     position: relative;
+//     top: 5px;
+//     left: 13vw;
+//   }
+// }
+
+
+// @media all and (max-width: 420px) {
+//   .designs {
+//     position: relative;
+//     top: 5px;
+//     left: 25vw;
+//   }
+// }

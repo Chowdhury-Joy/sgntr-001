@@ -1,0 +1,52 @@
+//**AFTER CLICKING SHOP Gender.........................
+//**AFTER CLICKING SHOP Gender.........................
+//**AFTER CLICKING SHOP Gender........................
+
+.gender-title {
+  color         : cornflowerblue;
+  font-family   : Akzidenz-Grotesk BQ;
+  font-weight   : map-get($font-weight, bold);
+  font-size     : $font-large;
+  letter-spacing: 0.05em;
+  max-width     : 200px;
+  margin        : 0 auto;
+}
+
+.gender-cat {
+
+  ul {
+    list-style           : none;
+    display              : grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap             : 20px;
+    margin-left: 30px;
+
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    max-width : 550px;
+    max-height: 350px;
+    display   : block;
+
+    box-sizing: border-box;
+  }
+
+  .cat-text {
+    position        : relative;
+    top             : -40px;
+    left            : 25%;
+    transform       : translate(-50%, -50%);
+    -ms-transform   : translate(-50%, -50%);
+    color           : rgb(180, 10, 95);
+    font-size       : 1em;
+    padding         : 8px 10px;
+    border          : 1px solid black;
+    border-radius   : 5px;
+    text-align      : center;
+    background-color: rgba(172, 143, 143, 0.884);
+  }
+}

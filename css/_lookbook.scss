@@ -1,0 +1,121 @@
+.lkbk-header-container {
+  display: flex;
+  padding: 0 10px;
+
+  .lkbk-header-text {
+    z-index: 1;
+
+    h3 {
+      font-weight: 800;
+      font-size  : 70px;
+      line-height: 20px;
+    }
+
+    p {
+      width      : 110%;
+      font-size  : 20px;
+      font-weight: 500;
+    }
+  }
+
+  .lkbk-header-img {
+    img {
+      max-width : 750px;
+      max-height: 550px;
+    }
+  }
+}
+
+//!!End of .lkbk-header-container
+
+.lkbk-primary-container {
+  background-color: $text-primary;
+  color           : $text-secondary;
+  padding         : 20px;
+
+  .lkbk-primary-text {
+    h3 {
+      font-weight: 800;
+      font-size  : 50px;
+      line-height: 20px;
+    }
+
+    p {
+      width      : 100%;
+      font-size  : 20px;
+      font-weight: 500;
+    }
+  }
+
+  .lkbk-primary-images {
+    a {
+      text-decoration: none;
+    }
+
+    img {
+      max-width : 750px;
+      max-height: 550px;
+    }
+
+    ul {
+      display                 : flex;
+      flex-wrap               : wrap;
+      justify-content         : space-around;
+      list-style              : none;
+      padding                 : 0 10%;
+      // display              : grid;
+      // grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      // grid-gap             : 20px;
+    }
+  }
+}
+
+//!!End of .lkbk-primary-container
+
+// .lkbk-secondary-container {
+
+//   .lkbk-secondary-container {
+//     h3 {
+//       font-weight: 800;
+//       font-size  : 70px;
+//       line-height: 20px;
+//     }
+
+//   }
+
+//   .lkbk-secondary-img {
+//     a {
+//       text-decoration: none;
+//     }
+
+//     img {
+//       max-width : 750px;
+//       max-height: 550px;
+//     }
+
+//     ul {
+//       list-style           : none;
+//       display              : grid;
+//       grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+//       grid-gap             : 20px;
+//     }
+//   }
+// }
+
+//!!End of .lkbk-secondary-container
+
+
+
+
+
+
+
+// .lkbk-title {
+//   color         : cornflowerblue;
+//   font-family   : Akzidenz-Grotesk BQ;
+//   font-weight   : map-get($font-weight, bold);
+//   font-size     : $font-large;
+//   letter-spacing: 0.05em;
+//   margin-top    : 2em;
+//   margin-left   : 30%;
+// }

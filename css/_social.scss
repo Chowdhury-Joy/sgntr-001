@@ -1,0 +1,18 @@
+.Social {
+  color      : black;
+  font-size  : 1em;
+  font-weight: bold;
+}
+
+.Social-Button {
+  background-color   : #181a1b;
+  color              : white;
+  // background-color: rgba(255, 255, 255, 0.1);
+  padding            : 0.9em;
+  font-weight        : 560;
+  font-size          : 0.9em;
+}
+
+.Social-Button:hover {
+  background-color: coral;
+}

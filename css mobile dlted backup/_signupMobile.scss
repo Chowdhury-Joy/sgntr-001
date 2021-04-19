@@ -1,0 +1,50 @@
+//!!In this file there are media queries for 2 types of phones...One is below 490px and another is 400px.
+
+@media all and (max-width:490px) {
+
+  .SignupSection {
+
+    .SignupTag {
+
+      h2 {
+        margin: 40px 20%;
+      }
+
+      h5 {
+        font-size: 15px;
+        margin   : 5px 3%;
+      }
+    }
+
+    .Signup-form {
+      margin: 20px -20px;
+
+    }
+  }
+}
+
+//!!Another types of phones which's max width is below 400px
+
+@media all and (max-width:400px) {
+
+
+  .SignupSection {
+
+    .SignupTag {
+
+      h2 {
+        margin: 40px 15%;
+      }
+
+      h5 {
+        font-size: 15px;
+        margin   : 5px 1%;
+      }
+    }
+
+    .Signup-form {
+      font-size: $font-large;
+      margin   : 20px -50px;
+    }
+  }
+}

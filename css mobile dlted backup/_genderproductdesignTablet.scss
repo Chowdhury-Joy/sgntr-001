@@ -1,0 +1,133 @@
+@media (max-width:790px) {
+  .gender-product-design {
+    display              : grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows       : minmax(250px, auto);
+    grid-gap             : 12px;
+    padding-bottom       : 20px;
+
+  }
+
+  .closeup {
+    grid-column: span 1;
+    margin-top : 20px;
+
+    img {
+      max-width : 200px;
+      padding   : 0 10px 5px;
+      max-height: 180px;
+    }
+  }
+
+  .Product-video {
+    grid-column: span 1;
+    margin-top : 20px;
+
+    img {
+      padding-right: 50px;
+      max-width    : 500px;
+      max-height   : 500px;
+    }
+  }
+
+  .Product-choice-information {
+    grid-column    : span 2;
+    // padding-left: 20px;
+
+    .Product-choice {
+      display    : grid;
+      grid-column: 1/-1;
+      margin-left: 50px;
+    }
+
+    .Product-choice:first-child {
+      margin-top: 20px;
+    }
+  }
+
+  .Product-name {
+    font-size: 50px;
+  }
+
+  .Product-price {
+    font-size: 30px;
+
+    span {
+      font-size: 15px;
+    }
+  }
+
+  .Product-sizes {
+    font-size: 25px;
+
+    span {
+      font-size: 15px;
+    }
+  }
+
+  .Quantity {
+    font-size: 15px;
+  }
+
+  .Add-to-cart {
+    font-size: 20px;
+    height   : 40px;
+    border   : 2px solid black;
+
+    align-items: center;
+  }
+
+
+  .Buy-now {
+    font-size: 20px;
+    height   : 40px;
+    border   : 2px solid black;
+
+    margin-top : 10px;
+    align-items: center;
+  }
+
+  //!!!! class of delivery-warranty-product_information
+
+  .delivery-warranty-product_information {
+    display              : grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left         : 30px;
+    margin-top           : 40px;
+  }
+
+  .delivery-details,
+  .warranty,
+  .Product-information {
+    width: 100%;
+  }
+
+  .warranty {
+    span {
+      color: red;
+    }
+  }
+
+  .Product-Question {
+    padding-left  : 30px;
+    padding-top   : 10px;
+    padding-bottom: 20px;
+    margin-top    : 40px;
+
+    span {
+      color: $secondary-color;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .product-review {
+    padding-left  : 30px;
+    padding-top   : 10px;
+    padding-bottom: 20px;
+    margin-top    : 40px;
+    margin-bottom : 20px;
+  }
+}

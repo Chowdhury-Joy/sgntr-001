@@ -1,0 +1,31 @@
+@media (max-width: 530px) {
+  .banner .tag {
+    display: none;
+  }
+
+  //!!banner ends here
+
+  .about-container {
+
+    .mtfndr-container {
+      padding-left: 10px;
+    }
+
+
+    .bkstry-container {
+      display              : flex;
+      flex-direction       : column;
+      padding-left         : 10px;
+      // justify-content   : flex-end;
+      // margin-left       : 30px;
+
+
+      .bkstry-text {
+        p {
+          font-size: 15px;
+          width    : 80%;
+        }
+      }
+    }
+  }
+}

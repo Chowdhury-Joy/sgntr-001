@@ -1,0 +1,20 @@
+@media (max-width:400px) {
+
+  .cat-text {
+    position        : relative;
+    top             : -40px;
+    left            : 20vw;
+    transform       : translate(-50%, -50%);
+    -ms-transform   : translate(-50%, -50%);
+    color           : rgb(180, 10, 95);
+    font-size       : 1em;
+    padding         : 8px 10px;
+    border          : 1px solid black;
+    border-radius   : 5px;
+    text-align      : center;
+    background-color: rgba(172, 143, 143, 0.884);
+  }
+}
+
+
+// @media (max-width:659px) {}

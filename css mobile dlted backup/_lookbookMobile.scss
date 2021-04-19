@@ -1,0 +1,117 @@
+@media all and (max-width:670px) {
+  .lkbk-header-container {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+
+    .lkbk-header-text {
+      h3 {
+        font-size: 50px;
+      }
+
+      p {
+        width: 100%;
+      }
+    }
+
+    .lkbk-header-img {
+      img {
+        padding-left: 5px;
+        max-width   : 450px;
+
+        height: auto;
+      }
+    }
+  }
+
+  //!!End of .lkbk-header-container
+
+  .lkbk-primary-container {
+
+    .lkbk-primary-text {
+      h3 {
+        font-weight: 800;
+        font-size  : 50px;
+        line-height: 50px;
+      }
+
+      p {
+        width      : 100%;
+        font-size  : 20px;
+        font-weight: 500;
+      }
+    }
+
+    .lkbk-primary-images {
+      a {
+        text-decoration: none;
+      }
+
+      img {
+        max-width: 400px;
+        height   : auto;
+      }
+
+      ul {
+        display                 : flex;
+        flex-wrap               : wrap;
+        justify-content         : space-around;
+        list-style              : none;
+        padding                 : 0 10%;
+        // display              : grid;
+        // grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        // grid-gap             : 20px;
+      }
+    }
+  }
+
+  //!!End of .lkbk-primary-container
+
+  // .lkbk-secondary-container {
+
+  //   .lkbk-secondary-container {
+  //     h3 {
+  //       font-weight: 800;
+  //       font-size  : 70px;
+  //       line-height: 20px;
+  //     }
+
+  //   }
+
+  //   .lkbk-secondary-img {
+  //     a {
+  //       text-decoration: none;
+  //     }
+
+  //     img {
+  //       max-width : 750px;
+  //       max-height: 550px;
+  //     }
+
+  //     ul {
+  //       list-style           : none;
+  //       display              : grid;
+  //       grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  //       grid-gap             : 20px;
+  //     }
+  //   }
+  // }
+
+  //!!End of .lkbk-secondary-container
+
+
+
+
+
+
+
+  // .lkbk-title {
+  //   color         : cornflowerblue;
+  //   font-family   : Akzidenz-Grotesk BQ;
+  //   font-weight   : map-get($font-weight, bold);
+  //   font-size     : $font-large;
+  //   letter-spacing: 0.05em;
+  //   margin-top    : 2em;
+  //   margin-left   : 30%;
+  // }}
+}

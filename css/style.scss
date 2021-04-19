@@ -1,0 +1,67 @@
+@import './resets';
+@import './variables';
+@import './mixins';
+
+@import './home';
+// @import './homeTablet';
+// @import './homeMobile';
+
+@import './gender';
+// @import './genderTablet';
+// @import './genderMobile';
+
+@import './genderproduct';
+// @import './genderproductTablet';
+// @import './genderproductMobile';
+
+@import './genderproductdesign';
+// @import './genderproductdesignTablet';
+// @import './genderproductdesignMobile';
+
+@import './nav';
+
+@import './signup';
+// @import './signupTablet';
+// @import './signupMobile';
+
+@import './login';
+// @import './loginTablet';
+// @import './loginMobile';
+
+@import './social';
+@import './footer';
+@import './return';
+
+
+@import './lookbook';
+// @import './lookbookTablet';
+// @import './lookbookMobile';
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+}
+
+
+//** Shop Men Starts 
+//**this part is missing in the code
+
+// .ShopNav {
+// 	background: teal;
+// }
+
+// .ShopNav ul {
+// 	list-style: none;
+// }
+// .ShopNav li {
+// 	display: inline;
+// 	padding: 8px 300px 8px 0;
+// }
+// .ShopNav a {
+// 	color          : white;
+// 	text-decoration: none;
+// 	font-size      : 20px;
+// }
+// .ShopNav li:hover {
+// 	background-color: rgb(17, 70, 70);
+// }

@@ -1,0 +1,161 @@
+//!!Banner
+
+#banner img {
+  height: 100%;
+  width : 80%;
+}
+
+//!! Button in image 
+
+.banner {
+  position: relative;
+  width   : auto;
+}
+
+.banner img {
+  width     : 100%;
+  max-height: 600px;
+}
+
+.banner .ShopMen {
+  position        : absolute;
+  top             : 80%;
+  left            : 50%;
+  transform       : translate(-50%, -50%);
+  -ms-transform   : translate(-50%, -50%);
+  background-color: #181a1b;
+  font-size       : $font-medium;
+  padding         : 12px 24px;
+  border          : none;
+  cursor          : pointer;
+  border-radius   : 5px;
+  text-align      : center;
+}
+
+.banner a {
+  text-decoration: none;
+  color          : white;
+}
+
+.banner .ShopMen:hover {
+  background-color: coral;
+}
+
+.banner .tag {
+  position     : absolute;
+  top          : 72%;
+  left         : 50%;
+  transform    : translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color        : yellowgreen;
+  font-weight  : bolder;
+  font-size    : $font-medium;
+  padding      : 12px 24px;
+  border       : none;
+  cursor       : pointer;
+  border-radius: 25px;
+  text-align   : center;
+}
+
+
+
+//!! About Founder and backstory of company
+
+.about-container {
+  background-color      : #868686;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+
+ 
+
+  .mtfndr-container {
+    display       : flex;
+    flex-direction: column;
+    padding-left  : 20px;
+
+ 
+    .mtfndr-text-img {
+      h2 {
+        font-size: 20px;
+      }
+
+      img {
+        max-width: 350px;
+      }
+    }
+
+    .mtfndr-social {
+     border-top: 15px;
+      display: flex;
+      
+    }
+  }
+
+
+  .bkstry-container {
+    display           : flex;
+    flex-direction    : column;
+    // justify-content: flex-end;
+     margin-left       : 200px;
+     margin-top: 150px;
+    //  margin-right: 50px;
+
+
+    .bkstry-text {
+      h2 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 15px;
+        width    : 80%;
+      }
+    }
+
+    .bkstry-Social {
+      display: flex;
+    }
+  }
+
+
+}
+
+//!!end of about-container section
+
+@media all and (max-width: 820px) {
+  .banner .tag {
+    position: absolute;
+    top: 68%;
+  }
+
+  .about-container {
+
+    .bkstry-container {
+           margin-left : 100px;
+           margin-top: 100px;
+    }
+
+    
+  .bkstry-Social {
+    .Social {
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  }
+}
+
+@media all and (max-width: 420px) {
+  
+.banner .tag {
+display: none;
+}
+.about-container {
+
+  .bkstry-container {
+    margin: 25px;
+  }
+}
+
+}

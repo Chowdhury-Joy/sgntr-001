@@ -1,0 +1,120 @@
+//! Only the Shirt designs will be here
+//! But not anything from ShopMen.html
+
+
+//! same layout for every product related to fashion
+
+//** After clicking DESIGN 01
+
+.gender-product-design {
+  display               : grid;
+  grid-template-columns : 1fr 1fr 1fr;
+  grid-auto-rows        : minmax(250px, auto);
+  grid-gap              : 12px;
+  background-color      : rgba(128, 128, 128, 0.14);
+  padding-bottom        : 20px;
+  padding-top           : 20px;
+  // grid-template-areas: ".Product-video " ;
+}
+
+.closeup {
+  img {
+    max-width : 300px;
+    padding   : 0 10px 5px;
+    max-height: 180px;
+  }
+}
+
+.Product-video {
+  img {
+    max-width : 500px;
+    max-height: 500px;
+  }
+}
+
+.Product-choice-information {
+
+  .Product-choice {
+    margin-left: 50px;
+  }
+
+  .Product-choice:first-child {
+    margin-top: 30px;
+  }
+}
+
+.Product-name {
+  font-size: 30px;
+}
+
+.Product-price {
+  font-size: 20px;
+}
+
+.Product-sizes {
+  font-size: 15px;
+}
+
+.Quantity {
+  font-size: 15px;
+}
+
+.Add-to-cart {
+  font-size : 20px;
+  height    : 40px;
+  border    : 2px solid black;
+  display   : flex;
+  margin-top: 25px;
+
+}
+
+
+.Buy-now {
+  font-size : 20px;
+  height    : 40px;
+  border    : 2px solid black;
+  display   : flex;
+  margin-top: 25px;
+
+}
+
+//!!!! class of delivery-warranty-product_information
+
+.delivery-warranty-product_information {
+  display              : grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left         : 30px;
+  margin-top           : 20px;
+  background-color     : rgba(128, 128, 128, 0.14);
+}
+
+.delivery-details,
+.warranty,
+.Product-information {
+  width: 60%;
+}
+
+.Product-Question {
+  padding-left    : 30px;
+  padding-top     : 10px;
+  padding-bottom  : 20px;
+  margin-top      : 20px;
+  background-color: rgba(128, 128, 128, 0.14);
+
+  span {
+    color: #a11c1c;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.product-review {
+  padding-left    : 30px;
+  padding-top     : 10px;
+  padding-bottom  : 20px;
+  margin-top      : 20px;
+  margin-bottom   : 20px;
+  background-color: rgba(128, 128, 128, 0.14);
+}

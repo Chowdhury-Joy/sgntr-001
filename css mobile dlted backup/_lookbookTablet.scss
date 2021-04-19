@@ -1,0 +1,21 @@
+@media all and (max-width:853px) {
+  .lkbk-header-container {
+    display: block;
+
+    .lkbk-header-text {
+      p {
+        width: 100%;
+      }
+    }
+
+    .lkbk-header-img {
+      img {
+
+        padding: 0 20%;
+      }
+    }
+  }
+
+  //!!End of .lkbk-header-container
+
+}

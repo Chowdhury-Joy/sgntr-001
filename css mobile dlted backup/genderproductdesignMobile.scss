@@ -1,0 +1,112 @@
+@media (max-width:450px) {
+  .gender-product-design {
+    display                 : flex;
+    flex-direction          : column;
+    // grid-template-columns: 1fr 1fr 1fr;
+    // grid-auto-rows       : minmax(250px, auto);
+    // grid-gap             : 12px;
+    padding-bottom          : 20px;
+  }
+
+  .closeup {
+    img {
+      display: none;
+
+      //** There will be a slide which will marge closeups and Product video...In that case you may have to change display which is set currently at none...
+      //   max-width : 300px;
+      //   padding   : 0 10px 5px;
+      //   max-height: 180px;
+    }
+  }
+
+  .Product-video {
+    img {
+      padding   : 20px 10px 0 10px;
+      max-width : 300px;
+      max-height: 300px;
+    }
+  }
+
+  .Product-choice-information {
+
+    .Product-choice {
+      margin-left: 50px;
+    }
+
+    .Product-choice:first-child {
+      margin-top: 10px;
+    }
+  }
+
+  .Product-name {
+    font-size: 30px;
+  }
+
+  .Product-price {
+    font-size: 20px;
+  }
+
+  .Product-sizes {
+    font-size: 15px;
+  }
+
+  .Quantity {
+    font-size: 15px;
+  }
+
+  .Add-to-cart {
+    font-size: 20px;
+    height   : 40px;
+    border   : 2px solid black;
+    display  : flex;
+  }
+
+
+  .Buy-now {
+    font-size : 20px;
+    height    : 40px;
+    border    : 2px solid black;
+    display   : flex;
+    margin-top: 10px;
+  }
+
+  //!!!! class of delivery-warranty-product_information
+
+  .delivery-warranty-product_information {
+    display                    : flex;
+    flex-direction             : column;
+    // align-items             : center;
+    // grid-template-columns   : repeat(3, 1fr);
+    padding-left               : 30px;
+    margin-top                 : 10px;
+  }
+
+  .delivery-details,
+  .warranty,
+  .Product-information {
+    width: 80%;
+  }
+
+  .Product-Question {
+    padding-left  : 30px;
+    padding-top   : 10px;
+    padding-bottom: 20px;
+    margin-top    : 10px;
+
+    span {
+      color: #ffffff;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .product-review {
+    padding-left  : 30px;
+    padding-top   : 10px;
+    padding-bottom: 20px;
+    margin-top    : 10px;
+    margin-bottom : 10px;
+  }
+}

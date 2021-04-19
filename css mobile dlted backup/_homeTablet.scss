@@ -1,0 +1,33 @@
+@media (max-width: 775px) {
+  .banner .tag {
+    position: absolute;
+    top     : 68%;
+    left    : 50%;
+  }
+
+  //!!banner ends here
+  .about-container {
+    .bkstry-container {
+
+      margin-left: 50px;
+
+
+      .bkstry-text {
+        h2 {
+          font-size: 20px;
+        }
+
+        p {
+          font-size: 15px;
+          width    : 95%;
+        }
+      }
+
+      .bkstry-Social {
+        display: flex;
+      }
+    }
+  }
+
+
+}

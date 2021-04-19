@@ -1,0 +1,143 @@
+header {
+  transition     : 0.3s ease;
+  margin-top     : 20px;
+  line-height    : 0;
+  color          : #ffffff;
+  text-decoration: none;
+  border-top     : 0 solid;
+  border-bottom  : 0 solid;
+  letter-spacing : 0.15em;
+  display        : flex;
+  justify-content: flex-end;
+  align-items    : center;
+}
+
+.title {
+  margin-left : 7%;
+  font-size   : 30px;
+  margin-right: auto;
+  font-weight : map-get($font-weight, medium);
+
+  a {
+    font-size      : 0.8em;
+    text-decoration: none;
+    color          : #ffc300;
+  }
+}
+
+.mainNav {
+  a {
+    color          : black;
+    font-weight    : map-get($font-weight, medium);
+    text-decoration: none;
+    font-size      : $font-medium;
+  }
+
+  ul {
+    list-style: none;
+    padding   : 10;
+  }
+
+  li {
+    font-size: $font-large;
+    display  : inline;
+    margin   : 50px;
+
+    &:hover {
+      border-top         : 4px solid #3fa46a;
+      border-bottom      : 4px solid #3fa46a;
+      padding            : 6px 0;
+      // background-color: #800000;
+    }
+  }
+}
+
+@media (max-width: 790px) {
+  header {
+    display    : block;
+    white-space: nowrap;
+    padding    : 1px;
+    float      : none;
+    margin-top : 0;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .mainNav {
+    display        : flex;
+    justify-content: space-around;
+    padding-left   : 0px;
+
+
+    li {
+      margin      : 0;
+      border-right: 1px solid #3fa46a;
+    }
+
+    ul {
+      padding-left: 10px;
+    }
+  }
+
+}
+
+
+@media (max-width:450px) {
+  header {
+    display    : block;
+    white-space: nowrap;
+    padding    : 1px;
+    float      : none;
+    margin-top : 0;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .mainNav {
+    display        : flex;
+    justify-content: space-around;
+    padding-left   : 0px;
+
+
+    li {
+      margin      : 0;
+      border-right: 1px solid #3fa46a;
+    }
+
+    ul {
+      padding-left: 10px;
+    }
+  }
+
+}
+
+
+
+
+
+
+//?what i did
+
+//**hover effect ?How it works
+// .link-1 {
+//   transition     : 0.3s ease;
+//   background     : #3fa46a;
+//   color          : #ffffff;
+//   font-size      : $font-large;
+//   text-decoration: none;
+//   border-top     : 4px solid #3fa46a;
+//   border-bottom  : 4px solid #3fa46a;
+//   padding        : 20px 0;
+//   margin         : 0 20px;
+// }
+
+
+// .link-1:hover {
+//   border-top   : 4px solid #ffffff;
+//   border-bottom: 4px solid #ffffff;
+//   padding      : 6px 0;
+// }

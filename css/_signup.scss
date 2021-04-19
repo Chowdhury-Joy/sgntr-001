@@ -1,0 +1,47 @@
+.SignupSection {
+  .SignupTag {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+
+    h2 {
+      margin: auto;
+    }
+
+    h5 {
+      margin: auto;
+    }
+  }
+
+  .Signup-form {      //!! This won't effect "Classes" of input field (.Full name, .Gender-radio, .Birthday etc.)  
+    display: flex;
+    flex-direction: column;
+    font-size: $font-medium;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    color: #0c0c0c;
+    margin: auto;
+    max-width: 350px;
+
+  .Full-name, .Password, .PhoneNumber, .Email, .Birthday {
+    margin: 10px;
+  }
+ 
+  .Gender-radio {
+    display: flex;
+    flex-direction: row;
+    // flex-wrap: nowrap;
+  
+  }
+}
+
+  .Signupbtn {
+    display: flex;   //To make the button center
+    background-color: #ae4608;
+    padding: 10px 80px;
+    bottom: 4px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: auto;
+  }
+}

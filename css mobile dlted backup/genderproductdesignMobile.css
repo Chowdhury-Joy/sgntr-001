@@ -1,0 +1,91 @@
+@media (max-width: 450px) {
+  .gender-product-design {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .closeup img {
+    display: none;
+  }
+  .Product-video img {
+    padding: 20px 10px 0 10px;
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .Product-choice-information .Product-choice {
+    margin-left: 50px;
+  }
+  .Product-choice-information .Product-choice:first-child {
+    margin-top: 10px;
+  }
+  .Product-name {
+    font-size: 30px;
+  }
+  .Product-price {
+    font-size: 20px;
+  }
+  .Product-sizes {
+    font-size: 15px;
+  }
+  .Quantity {
+    font-size: 15px;
+  }
+  .Add-to-cart {
+    font-size: 20px;
+    height: 40px;
+    border: 2px solid black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .Buy-now {
+    font-size: 20px;
+    height: 40px;
+    border: 2px solid black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 10px;
+  }
+  .delivery-warranty-product_information {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 30px;
+    margin-top: 10px;
+  }
+  .delivery-details,
+  .warranty,
+  .Product-information {
+    width: 80%;
+  }
+  .Product-Question {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+  }
+  .Product-Question span {
+    color: #ffffff;
+  }
+  .Product-Question a {
+    text-decoration: none;
+  }
+  .product-review {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+/*# sourceMappingURL=genderproductdesignMobile.css.map */
